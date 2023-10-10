@@ -32,9 +32,9 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashi
 sudo apt-get update
 sudo apt-get install vault
 
-sudo apt-get install ufw
+sudo apt-get install ufw -y
 
-ufw allow 8200
+sudo ufw allow 8200
 
 # This is Dev only
 vault server -dev -dev-root-token-id="dev-only-token"
