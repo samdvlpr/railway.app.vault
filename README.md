@@ -1,5 +1,10 @@
 # railway.app.vault
 
+## Railway Config
+$Username
+$Password
+$Port
+
 ## Add SSH
 ssh -p {PORT} {Username}@{URL}  
 
